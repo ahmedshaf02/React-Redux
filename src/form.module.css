@@ -1,0 +1,29 @@
+.formStyle {
+  width: 300px;
+  border: 1px solid rgb(134, 127, 127);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.formStyle > * {
+  margin: 10px;
+}
+.formStyle input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.formStyle input[type="submit"] {
+  border: none;
+  background: rgb(235, 228, 228);
+  font-size: 18px;
+  border-radius: 4px;
+  opacity: 0.8;
+  outline: none;
+}
+.formStyle input[type="submit"]:hover {
+  opacity: 1;
+}
